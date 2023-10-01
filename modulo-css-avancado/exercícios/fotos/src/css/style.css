@@ -1,0 +1,37 @@
+  @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;700&display=swap');
+
+body {
+  font-family: 'Public Sans', sans-serif;
+  color: white;
+}
+.container {
+  display: flex;
+  background-color: beige;
+  padding: 129px 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.listagem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.item {
+  position: relative;
+  text-align: center;
+  margin: 10px;
+}
+.titulo {
+  position: absolute;
+  bottom: 70px;
+  left: 15px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.pintor {
+  position: absolute;
+  bottom: 45px;
+  left: 15px;
+  font-size: 17px;
+  font-weight: 300;
+}

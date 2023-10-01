@@ -1,0 +1,39 @@
+.container-one {
+  display: flex;
+  flex-direction: row;
+}
+.container-one div{
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  
+}
+
+.container-two {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.container-two div{
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  
+}
+.container-three {
+  display: flex;
+  flex-flow: row wrap;
+}
+.container-three div{
+  background-color: aqua;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  
+}
+

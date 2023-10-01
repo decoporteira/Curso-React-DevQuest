@@ -1,0 +1,109 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    line-height: normal;
+    font-style: normal;
+}
+main {
+    max-height: 100vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+.info {
+    padding-right: 20px;
+    
+}
+
+.grid {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 2fr;
+    
+  }
+.container {
+    margin-top: 200px;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; */
+    
+    width: 655px;
+    height: 347px;
+    border-radius: 21px;
+    background: #FCFCFC;
+    box-shadow: 0px 20px 20px -10px rgba(0, 0, 0, 0.25);  
+}
+
+.imgbg {
+    width: 278px;
+    position: relative;
+    left: -90px;
+
+    background-image: url(./imgs/imagem.png);
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+h2 {
+    display: flex;
+    font-size: 17px;
+    font-weight: 500;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+p {
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+
+
+
+.accordion {
+	width: 100%;
+	max-width: 500px;
+	overflow: hidden;
+	
+
+
+}
+.accordion__intro {
+    position: relative;
+    
+    cursor: pointer;
+}
+
+.accordion__content {
+		padding: 0 0px;
+		max-height: 0;
+		overflow: hidden;
+		will-change: max-height;
+		transition: all 0.25s ease-out;
+	
+		opacity: 0;
+	}
+
+	.accordion__active {
+		.accordion__intro {
+            
+		}
+
+		.accordion__content {
+			
+			opacity: 1;
+		}
+	}
+

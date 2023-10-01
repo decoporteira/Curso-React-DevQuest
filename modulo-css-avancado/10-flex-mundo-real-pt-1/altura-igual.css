@@ -1,0 +1,23 @@
+.flex {
+  display: flex; /* coloca os elementos em flex */
+  width: 960px;
+  max-width: 100%;
+  flex-wrap: wrap; /* quebra a linha */
+}
+
+.flex img {
+  max-width: 100%;
+}
+
+.coluna {
+  background-color: lightblue;
+  display: flex; 
+  flex-direction: column; /* distribui em colunas */
+  flex: 0 1 250px; /* grow 0, não se adaptar ao tamanho, 1 no shrink para ele não diminuir, e 250 no basis para ele pegar o tamanho certo */
+  margin: 1em;
+}
+
+.botao {
+  align-self: flex-start; /* alinha a esquerda */
+  margin-top: auto; /* sempre fica na base da div */
+}

@@ -1,0 +1,25 @@
+/* seletor::pseudo-elemento {
+  propriedade: valor
+} */
+p::first-letter {
+  color: blueviolet;
+}
+p::first-line {
+  font-weight: bold;
+}
+li::marker {
+  color: red;
+  font-size: 35px;
+}
+h2::before {
+  content: "texto";
+}
+
+h2::after {
+  content: '';
+  background: url("https://cdn-icons-png.flaticon.com/256/87/87390.png") center center no-repeat;
+  display: inline-block;
+  width: 85px;
+  height: 85px;
+}
+  

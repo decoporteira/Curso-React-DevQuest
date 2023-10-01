@@ -1,0 +1,82 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+ul{
+  list-style-type: none;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: antiquewhite;
+  font-weight: 300px;
+}
+.topo{
+  background-color: aquamarine;
+}
+.container{
+  background-color: #F7F7F7;
+  margin: auto;
+  display: grid;
+  /* grid: "topo topo topo" 250px
+  "propaganda propaganda propaganda" */
+  /* "menu secao-principal aside" 400px 
+  "rodape rodape rodape" 250px / 160px auto 160px; */
+  /* grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(3, auto); */
+  grid: "main main slider";
+  width: 830px;
+  height: 415px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 38px;
+}
+
+.main{
+  grid-area: main;
+  width: 543px;
+  gap: 17px;
+}  
+
+.slider{
+  grid-area: slider;
+  width: 270px;
+  margin-left: 10px;
+}
+h1{
+  margin-top: 12px;
+  font-size: 18px;
+  margin-bottom: 7px;
+}
+.visualizacoes{
+  font-size: 14px;
+ 
+  margin-bottom: 9px;
+}
+.corpo{
+  font-size: 16px;
+  margin-bottom: 9px;
+  margin-bottom: 10px;
+}
+.banner{
+  margin-bottom: 20px;
+}
+.recomendados{
+  display: flex;
+  margin-bottom: 15px;
+}
+h2{
+  font-size: 14px;
+}
+.texto-small{
+  font-size: 11px;
+}
+.thumb{
+  margin-right: 4px;
+}
+.recomendados .info{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  
+}

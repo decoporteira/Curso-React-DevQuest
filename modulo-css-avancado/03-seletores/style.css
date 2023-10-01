@@ -1,0 +1,37 @@
+h1 {
+  color: green;
+}
+.paragrafo {
+  font: bold;
+}
+#menu {
+  color: red
+}
+.titulo {
+  font-weight: bold;
+}
+.titulo.vermelho {
+  color: red;
+}
+.titulo.orange {
+  color: orange;
+}
+p,span {
+  color: chartreuse;
+}
+.sobre .texto-pequeno {
+  font-size: small;
+  color: black;
+}
+div > p {
+  color:chartreuse
+  /* pega todos os elementos dentro do filho */
+}
+
+div + p {
+  color:royalblue
+  /* pega o elemento p logo depois da div */
+}
+a[target=_blank] {
+  color: red;
+}

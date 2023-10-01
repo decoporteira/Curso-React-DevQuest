@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;800&display=swap');
+body {
+  font-family: 'Public Sans', sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+  align-items: center;
+  
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  font-size: 20px;
+  padding-left: 45px;
+}
+.logo img {
+  padding-right: 6px;
+}
+.menu{
+  display: flex;
+  font-weight: 400;
+  font-size: 15px;
+  padding-right: 45px;
+  align-items: center;
+}
+
+.menu li a {
+  transition: 0.3s ease-in-out;
+  padding: 10px 5px;
+  margin-left: 20px;
+}
+.menu li a:hover {
+  color: white;
+  background-color: #4CAF50;
+}
+
+.menu li a.btn {
+  background-color: #4CAF50;
+  border-radius: 10px;
+  color: white;
+  margin-left: 20px;
+  padding: 10px 20px;
+}
+
+@media (max-width: 745px) {
+
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu{
+    flex-direction: column;
+    padding: 0;
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  .logo {
+    padding: 0;
+    margin-bottom: 60px;
+    font-size: 40px
+  }
+  .menu li:last-child {
+    margin-top: 20px;;
+  }
+  .menu li a.btn {
+    font-size: 18px;
+    padding: 15px 23px;
+  }
+  .menu {
+    gap:40px;
+  }
+  .menu li a {
+    padding: 17px 40px;
+  }
+}

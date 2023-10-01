@@ -1,0 +1,15 @@
+a {
+  cursor:progress;
+  margin: 20px;
+  padding: 10px;
+}
+a:visited {
+  color: red;
+}
+a:active {
+  color:chartreuse
+}
+a:hover {
+  background-color: brown;
+  color:aliceblue;
+}

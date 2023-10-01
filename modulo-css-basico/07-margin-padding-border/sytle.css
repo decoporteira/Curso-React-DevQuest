@@ -1,0 +1,14 @@
+p {
+   margin: 30px 15px; /* margin topo e bottom / margin left right */
+   /* margin: 30px 15px 30px 15px; */
+   background-color: antiquewhite;
+   padding: 10px;
+   border-style: solid;
+   border-width: 20px;
+   border-color: brown;
+   border-top-color: white;
+   
+}
+h1 {
+  border: 20px solid red;
+}

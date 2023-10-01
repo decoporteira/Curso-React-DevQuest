@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <h1>Forms</h1>
+  <h3>GET</h3>
+  <form method="get" action="index.html"> 
+    <input type="text" name="q">
+    <button type="submit">Procurar</button>
+  </form>
+
+  <h3>Post</h3>
+  <form method="post" action="index.html"> 
+    <input type="text" name="q">
+    <button type="submit">Procurar</button>
+  </form>
+  <h3>Login no Facebook</h3>
+  <form method="get" action="index.html" enctype="multipart/form-data">
+    <input type="text" name="first_name" id="first_name" placeholder="Nome" required>
+    <input type="text" name="last_name" id="last_name" placeholder="Sobrenome"><br>
+    <input type="text" name="email_cel" id="email_cel" placeholder="Celular ou email"><br>
+    <input type="password" name="senha" id="senha" placeholder="Nova senha"><br>
+    <label>Data de nascimento</label><br>
+    <select name="day" id="day">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+    <select name="month" id="month">
+      <option value="Jan">Jan</option>
+      <option value="Fev">Fev</option>
+      <option value="Mar">Mar</option>
+    </select>
+    <select name="year" id="year">
+      <option value="1999">1999</option>
+      <option value="2000">2000</option>
+      <option value="2001">2001</option>
+    </select><br>
+    <label>Gênero</label><br>
+    <label for="Feminino">Feminino</label>
+    <input type="radio" name="genero" id="Feminino" value="feminino">
+    <label for="Masculino">Masculino</label>
+    <input type="radio" name="genero" id="Masculino" value="masculino">
+    <label for="Personalizado">Personalizado</label>
+    <input type="radio" name="genero" id="Personalizado" value="personalizado">
+    <br>
+    <input type="file" name="" id="">
+    <button>Enviar</button>
+
+
+  </form>
+  
+</body>
+</html>
