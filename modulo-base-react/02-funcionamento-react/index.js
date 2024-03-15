@@ -1,7 +1,5 @@
 const root = document.getElementById('root');
-const p = React.createElement('p', null, 'Hello World!');
-const g = React.createElement('div', null, 'que isso');
+const p = React.createElement('p', null, 'Olá mundo!')
+const reactRoot = ReactDOM.createRoot(root);
 
-ReactDOM.render(p, root);
-ReactDOM.render(g, root);
-
+reactRoot.render(p);
