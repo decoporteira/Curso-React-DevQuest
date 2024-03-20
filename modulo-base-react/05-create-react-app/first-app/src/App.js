@@ -5,9 +5,9 @@ import Card from './components/card/card';
 function App() {
   return (
     <>    
-      <Card />
+      <Card title='Novo título'/>
       <Button />
-      <Card />
+      <Card title='Título 2' />
     </>
 
   );
