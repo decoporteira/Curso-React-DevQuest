@@ -3,7 +3,7 @@ import React from "react";
 const Card = ({ text }) => {
   return (
     <>
-      <p>{ text }</p>
+      <p id='text'>{ text }</p>
     </>
   )
 }

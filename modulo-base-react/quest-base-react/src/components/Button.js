@@ -1,15 +1,18 @@
 import React from 'react';
 
 function alteraCase() {
-  const text = document.querySelector('p').textContent;
+  const paragraph = document.getElementById('text')
+  const text = document.getElementById('text').textContent;
   
+  console.log(text)
   if (text === text.toUpperCase()) {
     const textLowerCase = text.toLowerCase();
-    document.querySelector('p').textContent = textLowerCase;
+    paragraph.textContent = textLowerCase;
   } else {
     const textUpperCase = text.toUpperCase();
-    document.querySelector('p').textContent = textUpperCase;
+    paragraph.textContent = textUpperCase;
   }
+  paragraph.style.color = 'red'
 }
 
 const Button = () => {
