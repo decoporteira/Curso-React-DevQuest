@@ -1,1 +1,1 @@
-#Repositório do Curso de HTML, CSS, JS e React Dev em Dobro.
+Repositório do Curso de HTML, CSS, JS e React Dev em Dobro.
